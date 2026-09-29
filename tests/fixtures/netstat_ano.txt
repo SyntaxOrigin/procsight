@@ -1,0 +1,12 @@
+Aktif Bağlantılar
+
+Proto  Yerel Adres            Yabancı Adres           Durum           PID
+TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       1044
+TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+TCP    127.0.0.1:52134        52.109.8.20:443        ESTABLISHED     4321
+TCP    127.0.0.1:51001        45.83.220.17:8443      ESTABLISHED     9013
+TCP    192.168.1.5:51002      192.168.1.10:445       ESTABLISHED     9013
+TCP    [::]:445               [::]:0                 LISTENING       4
+TCP    127.0.0.1:51003        203.0.113.9:9001       ESTABLISHED     9012
+UDP    0.0.0.0:500            *:*                                    1234
+UDP    [fe80::1%12]:546       *:*                                    4321

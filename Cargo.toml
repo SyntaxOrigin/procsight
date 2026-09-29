@@ -1,0 +1,26 @@
+[package]
+name = "procsight"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.74"
+license = "MIT"
+description="Surec, ag baglantisi ve baslangic girdisi envanterini salt-okunur toplayan; JSONL gunlugu ve HTML/CSV raporu ureten seffaflik terminal araci."
+repository = "https://github.com/SyntaxOrigin/procsight"
+readme = "README.md"
+keywords = ["cli", "process", "observability", "transparency", "monitoring"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+# serde: JSONL olay gunlugu semasi ve disa aktarim icin turetilmis olay/kural veri yuzleri (src/gunluk.rs, src/rapor.rs, src/kurallar.rs).
+serde = { version = "1", features = ["derive"] }
+# serde_json: JSONL olay gunlugu yazimi/okumasi ve HTML/CSV rapor ozeti uretimi (src/gunluk.rs, src/rapor.rs).
+serde_json = "1"
+# clap: snapshot / watch / rules / report alt komutlarinin ve bayraklarinin ayristirilmasi (src/main.rs).
+clap = { version = "4", features = ["derive"] }
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+panic = "abort"
+strip = "debuginfo"

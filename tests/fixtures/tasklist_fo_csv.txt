@@ -1,0 +1,8 @@
+"Image Name","PID","Session Name","Session#","Mem Usage"
+"System Idle Process","0","Services","0","8 K"
+"System","4","Services","0","148 K"
+"svchost.exe","1044","Services","0","21,300 K"
+"explorer.exe","4321","Console","1","98,412 K"
+"Chrome.exe","9001","Console","1","1,572,864 K"
+"Ayarlar yardimcisi","9012","Console","1","12 K"
+"Xk3jdH9s7qW.exe","9013","Console","1","40 K"

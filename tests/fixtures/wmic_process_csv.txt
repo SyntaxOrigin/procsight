@@ -1,0 +1,5 @@
+Node,CommandLine,ExecutablePath,HandleCount,Name,ParentProcessId,ProcessId
+MASA,/sbin/init,/sbin/init,0,systemd,0,1
+MASA,"C:\Program Files\Mozilla Firefox\firefox.exe" --new-window,C:\Program Files\Mozilla Firefox\firefox.exe,300,firefox.exe,1,4321
+MASA,"C:\Users\KULLANICI\AppData\Local\Temp\Xk3jdH9s7qW.exe",C:\Users\KULLANICI\AppData\Local\Temp\Xk3jdH9s7qW.exe,88,Xk3jdH9s7qW.exe,4321,9013
+MASA,bozuk satir,C:\temp\x.exe,1,x.exe,1,pid-degil
